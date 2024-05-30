@@ -23,17 +23,17 @@ export const Navbar = () => {
             >Home
             </Link>
             <Link
-              href="/pages/css342"
+              href="/courses/core/css342"
               className="focus-within:bg-slate-500 hover:bg-slate-500 border-2 rounded-xl p-2"
             >CSS342
             </Link>
             <Link
-              href="/pages/css343"
+              href="/courses/core/css343"
               className="focus-within:bg-slate-500 hover:bg-slate-500 border-2 rounded-xl p-2"
             >CSS343
             </Link>
             <Link
-              href="/pages/css350"
+              href="/courses/core/css350"
               className="focus-within:bg-slate-500 hover:bg-slate-500 border-2 rounded-xl p-2"
             >CSS350
             </Link>
