@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from 'next/image';
+import GitHubLogo from "@/app/assets/github-logo.png";
 
 export const Navbar = () => {
   return (
@@ -18,27 +20,27 @@ export const Navbar = () => {
           <div className="ml-7 flex items-center gap-4 text-white"> {/* flex container that centers flex items on the cross-axis and evenly spaces each flex item by 1rem */}
 
             <Link
-              href="/"
+              href="/courses"
               className="focus-within:bg-slate-500 hover:bg-slate-500 border-2 rounded-xl p-2"
-            >Home
+            >Courses
             </Link>
             <Link
-              href="/courses/core/css342"
+              href="/about"
               className="focus-within:bg-slate-500 hover:bg-slate-500 border-2 rounded-xl p-2"
-            >CSS342
+            >About
             </Link>
             <Link
-              href="/courses/core/css343"
+              href="/filler"
               className="focus-within:bg-slate-500 hover:bg-slate-500 border-2 rounded-xl p-2"
-            >CSS343
+            >idk lol
             </Link>
             <Link
-              href="/courses/core/css350"
-              className="focus-within:bg-slate-500 hover:bg-slate-500 border-2 rounded-xl p-2"
-            >CSS350
+              href="https://github.com/seabluc"
+              target="_blank"
+              className="focus-within:bg-slate-500 hover:bg-slate-500 border-2 rounded-xl px-2 py-1"
+            ><Image src={GitHubLogo} alt="nah id win" className="size-8" />
             </Link>
           </div>
-
         </div>
       </div>
     </nav>
