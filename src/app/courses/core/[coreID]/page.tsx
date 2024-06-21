@@ -13,6 +13,13 @@ export default function Core({
 }: {
   params: { coreID: string };
 }) {
+  if (params.coreID === "342") {
+    return (
+      <>
+      <h1>Core Course: CSS {params.coreID} w/ Robert Dimpsey was brutal</h1>
+      </>
+    )
+  }
   return (
     <>
       <h1>Core Courses: {params.coreID}</h1> 
